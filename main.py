@@ -3,9 +3,6 @@ import numpy as np
 import keras
 from keras_preprocessing.image import load_img
 from keras_preprocessing.image import img_to_array 
-from keras.applications.vgg16 import preprocess_input
-from keras.applications.vgg16 import decode_predictions
-from keras.applications.vgg16 import VGG16
 from keras.models import load_model
 import tensorflow as tf
 
